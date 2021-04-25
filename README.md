@@ -1,22 +1,22 @@
-# Atom Fpga April
+# ARP Handler
 
-Atom Computing FPGA coding exercise submission for Steve April
+FPGA coding exercise - Steve April
 
 ## VERSION HISTORY
 
 | **Version**  | **Date**  | **Description**                       |
 |--------------|-----------|---------------------------------------|  
-|  1.0         | 12-APR-21 | Initial release                         
+|  1.0         | 25-APR-21 | Initial release                         
 
 
 #### Information and Tools
 
 | **Organization**    | Atom Computing                             |
 |---------------------|--------------------------------------------|  
-| **FPGA Name**       | atom-fpga-april  
+| **FPGA Name**       | fpga-april  
 | **Design Name**     | ARP handler (PC-B)  
 | **File Name**       | arp_handler.sv  
-| **MTS**             |[Steve April](mailto:steve.j.april@gmail.com?subject=GitLab_atom-fpga-april)  
+| **MTS**             |[Steve April](mailto:steve.j.april@gmail.com?subject=GitHub_arp-stapril)  
 | **Language-1**      | SystemVerilog 
 | **Device**          | XQZU29DR-FFRF1760-2I RFSOC (example) 
 | **Tool versions**   | Xilinx Vivado 2020.2 for Logic Simulation
