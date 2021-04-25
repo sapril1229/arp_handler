@@ -1,7 +1,7 @@
 /*-------------------------------------------------------------------------------------------------
- Organization:         : Atom Computing
+ Organization:         :
  Program Name          :
- FPGA Name             : atom-fpga-april
+ FPGA Name             : fpga-april
  Design Name           : ARP handler (PC-B)
  File Name             : arp_handler.sv
  MTS1                  : steve april
