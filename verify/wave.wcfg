@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="arp_handler_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="arp_handler_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="7995001fs"></ZoomEndTime>
+      <Cursor1Time time="918000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="140"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="42" />
+   <wvobject fp_name="/arp_handler_tb/sim_test" type="array">
+      <obj_property name="ElementShortName">sim_test[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_test[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_handler_tb/clk_rx" type="logic">
+      <obj_property name="ElementShortName">clk_rx</obj_property>
+      <obj_property name="ObjectShortName">clk_rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_handler_tb/clk_tx" type="logic">
+      <obj_property name="ElementShortName">clk_tx</obj_property>
+      <obj_property name="ObjectShortName">clk_tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_handler_tb/dut/areset" type="logic">
+      <obj_property name="ElementShortName">areset</obj_property>
+      <obj_property name="ObjectShortName">areset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_handler_tb/pkt_state" type="array">
+      <obj_property name="ElementShortName">pkt_state[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pkt_state[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_handler_tb/seq" type="array">
+      <obj_property name="ElementShortName">seq[15:0]</obj_property>
+      <obj_property name="ObjectShortName">seq[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_handler_tb/j" type="array">
+      <obj_property name="ElementShortName">j[31:0]</obj_property>
+      <obj_property name="ObjectShortName">j[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_handler_tb/data_valid_rx" type="logic">
+      <obj_property name="ElementShortName">data_valid_rx</obj_property>
+      <obj_property name="ObjectShortName">data_valid_rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_handler_tb/data_rx" type="array">
+      <obj_property name="ElementShortName">data_rx[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_rx[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_handler_tb/ipg_cnt" type="array">
+      <obj_property name="ElementShortName">ipg_cnt[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ipg_cnt[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_handler_tb/cycle_count" type="array">
+      <obj_property name="ElementShortName">cycle_count[15:0]</obj_property>
+      <obj_property name="ObjectShortName">cycle_count[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_handler_tb/packet_cnt" type="array">
+      <obj_property name="ElementShortName">packet_cnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">packet_cnt[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_handler_tb/clk_tx" type="logic">
+      <obj_property name="ElementShortName">clk_tx</obj_property>
+      <obj_property name="ObjectShortName">clk_tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_handler_tb/dut/data_tx_int" type="array">
+      <obj_property name="ElementShortName">data_tx_int[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_tx_int[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_handler_tb/dut/fifo_valid_tx" type="logic">
+      <obj_property name="ElementShortName">fifo_valid_tx</obj_property>
+      <obj_property name="ObjectShortName">fifo_valid_tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_handler_tb/data_tx" type="array">
+      <obj_property name="ElementShortName">data_tx[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_tx[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_handler_tb/dut/cdc_fifo/empty" type="logic">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_handler_tb/dut/cdc_fifo/full" type="logic">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_handler_tb/dut/cdc_fifo/prog_empty" type="logic">
+      <obj_property name="ElementShortName">prog_empty</obj_property>
+      <obj_property name="ObjectShortName">prog_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_handler_tb/dut/cdc_fifo/prog_full" type="logic">
+      <obj_property name="ElementShortName">prog_full</obj_property>
+      <obj_property name="ObjectShortName">prog_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_handler_tb/dut/cdc_fifo/underflow" type="logic">
+      <obj_property name="ElementShortName">underflow</obj_property>
+      <obj_property name="ObjectShortName">underflow</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_handler_tb/clk_tx" type="logic">
+      <obj_property name="ElementShortName">clk_tx</obj_property>
+      <obj_property name="ObjectShortName">clk_tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_handler_tb/dut/rst_txn" type="logic">
+      <obj_property name="ElementShortName">rst_txn</obj_property>
+      <obj_property name="ObjectShortName">rst_txn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_handler_tb/dut/arp_state" type="array">
+      <obj_property name="ElementShortName">arp_state[31:0]</obj_property>
+      <obj_property name="ObjectShortName">arp_state[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_handler_tb/dut/seq" type="array">
+      <obj_property name="ElementShortName">seq[15:0]</obj_property>
+      <obj_property name="ObjectShortName">seq[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_handler_tb/dut/i" type="array">
+      <obj_property name="ElementShortName">i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_handler_tb/dut/smac" type="array">
+      <obj_property name="ElementShortName">smac[47:0]</obj_property>
+      <obj_property name="ObjectShortName">smac[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_handler_tb/dut/pkt_read_done" type="logic">
+      <obj_property name="ElementShortName">pkt_read_done</obj_property>
+      <obj_property name="ObjectShortName">pkt_read_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_handler_tb/dut/data_tx_int" type="array">
+      <obj_property name="ElementShortName">data_tx_int[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_tx_int[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_handler_tb/dut/dmac" type="array">
+      <obj_property name="ElementShortName">dmac[47:0]</obj_property>
+      <obj_property name="ObjectShortName">dmac[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_handler_tb/dut/smac" type="array">
+      <obj_property name="ElementShortName">smac[47:0]</obj_property>
+      <obj_property name="ObjectShortName">smac[47:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_handler_tb/dut/types" type="array">
+      <obj_property name="ElementShortName">types[31:0]</obj_property>
+      <obj_property name="ObjectShortName">types[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_handler_tb/dut/pro" type="array">
+      <obj_property name="ElementShortName">pro[47:0]</obj_property>
+      <obj_property name="ObjectShortName">pro[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_handler_tb/dut/sip" type="array">
+      <obj_property name="ElementShortName">sip[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sip[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_handler_tb/dut/tmac" type="array">
+      <obj_property name="ElementShortName">tmac[47:0]</obj_property>
+      <obj_property name="ObjectShortName">tmac[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_handler_tb/dut/tip" type="array">
+      <obj_property name="ElementShortName">tip[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tip[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_handler_tb/dut/fifo_valid_tx" type="logic">
+      <obj_property name="ElementShortName">fifo_valid_tx</obj_property>
+      <obj_property name="ObjectShortName">fifo_valid_tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_handler_tb/dut/cache_state" type="array">
+      <obj_property name="ElementShortName">cache_state[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cache_state[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_handler_tb/dut/cseq" type="array">
+      <obj_property name="ElementShortName">cseq[15:0]</obj_property>
+      <obj_property name="ObjectShortName">cseq[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_handler_tb/dut/cache_entry" type="array">
+      <obj_property name="ElementShortName">cache_entry[80:0]</obj_property>
+      <obj_property name="ObjectShortName">cache_entry[80:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_handler_tb/dut/smac" type="array">
+      <obj_property name="ElementShortName">smac[47:0]</obj_property>
+      <obj_property name="ObjectShortName">smac[47:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/arp_handler_tb/dut/sip" type="array">
+      <obj_property name="ElementShortName">sip[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sip[31:0]</obj_property>
+   </wvobject>
+</wave_config>
