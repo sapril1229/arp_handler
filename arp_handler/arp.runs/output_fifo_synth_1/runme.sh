@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/stapril/hardware/atom/test/atom-fpga-april/arp_handler/arp.runs/output_fifo_synth_1'
+HD_PWD='C:/Users/stapril/Desktop/f2/arp_handler/arp_handler/arp.runs/output_fifo_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
